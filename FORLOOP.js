@@ -30,5 +30,3 @@ const person = {
     lastname: 'Tamm',
     age: 40
 }
-
-for (let personKey in person)

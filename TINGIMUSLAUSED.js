@@ -62,10 +62,4 @@ console.log(id === 100 ? 'Ok' : 'Not')
 //switch
 const color = 'red'
 
-switch (color){
-    case "red":
-        console.log('Stop!)
-            break;
-}
-
 console.log(personID)
