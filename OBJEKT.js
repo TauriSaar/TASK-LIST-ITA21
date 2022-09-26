@@ -30,11 +30,10 @@ console.log(val)
 //}
 
 person.hobbies.forEach(function (hobbies, index) {
-    console.log(hobbies + " on element indekiga " + index)
+    console.log(hobbies + " on element indekiga* " + index)
     console.log(hobbies)
 })
 
 person.hobbies.forEach((hobbies, index) => {
     console.log(hobbies + " on element indeksiga " + index)
 })
-
