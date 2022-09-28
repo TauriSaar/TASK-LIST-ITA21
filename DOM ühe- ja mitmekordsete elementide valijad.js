@@ -1,8 +1,8 @@
 let val;
 
-val = document.getElementById('task-form')
-val = document.getElementById('task-form').id
-val = document.getElementById('task-form').className
+val = document.getElementById('task-DOMEvents')
+val = document.getElementById('task-DOMEvents').id
+val = document.getElementById('task-DOMEvents').className
 
 const taskTitle = document.getElementById('task-title')
 
