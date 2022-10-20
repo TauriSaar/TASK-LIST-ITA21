@@ -1,17 +1,11 @@
 const form  = document.querySelector('form')
 const taskInput = document.querySelector('#task')
 const taskList = document.querySelector('ul')
-<<<<<<<<< Temporary merge branch 1
 const delAllTasks = document.querySelector('#del-tasks')
 
 form.addEventListener('submit', addTask)
 taskList.addEventListener('click', deleteTask)
 delAllTasks.addEventListener('click', deleteAllTasks)
-=========
-
-form.addEventListener('submit', addTask)
-taskList.addEventListener('click', deleteTask)
->>>>>>>>> Temporary merge branch 2
 
 function addTask(e){
     // create list item
@@ -36,7 +30,6 @@ function deleteTask(e){
             e.target.parentElement.remove()
         }
     }
-<<<<<<<<< Temporary merge branch 1
 }
 
 function deleteAllTasks(e){
@@ -45,6 +38,3 @@ function deleteAllTasks(e){
         taskList.removeChild(taskList.firstChild)
     }
 }
-=========
-}
->>>>>>>>> Temporary merge branch 2
