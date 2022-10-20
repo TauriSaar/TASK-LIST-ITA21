@@ -2,9 +2,6 @@ const form  = document.querySelector('form')
 const taskInput = document.querySelector('#task')
 const taskList = document.querySelector('ul')
 
-form.addEventListener('submit', addTask)
-taskList.addEventListener('click', deleteTask)
-
 function addTask(e){
     // create list item
     const li = document.createElement('li')
@@ -28,4 +25,3 @@ function deleteTask(e){
             e.target.parentElement.remove()
         }
     }
-}
